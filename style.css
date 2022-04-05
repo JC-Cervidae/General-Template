@@ -1,0 +1,138 @@
+/*----------------------------------------TEST CONTENT---------------------------------*/
+
+/*----------------------------------------TEST CONTENT---------------------------------*/
+
+
+/*------------------------------------------ALL CONTENT------------------------------------*/
+html{
+background-color:HSL(219, 20%, 34%);
+color:hsl(224, 51%, 11%);
+  /*color:hsl(359, 0%, 80%);*/
+}
+
+.section{
+  background-color:HSL(219, 20%, 34%);
+  /*background-color:hsl(224, 51%, 11%);*/
+}
+
+.division{
+  border:5px solid hsl(223, 45%, 28%);
+}
+
+
+/*-------------------------------------------------NAVBAR-------------------------------------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(201, 26%, 50%);
+}
+/*------------------------------------------ NavBar Elements------------------------------------- */
+.navlinks {
+  float: left;
+  color: hsl(224, 51%, 11%);
+  font-weight:bold;
+  font-size:25px;
+  margin:15px 70px;
+}
+
+li a {
+  display: block;
+  color: hsl(36, 100%, 50%);;
+  text-align: center;
+  margin: 14px 26px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: hsl(36, 100%, 50%);
+}
+
+#bottom-button{
+  float:right;
+  color:hsl(224, 51%, 11%);
+  font-weight:bold;
+  font-size:25px;
+}
+/*-----------------------------------ANCHOR (A-Tag) ELEMENTS-------------------------------------*/
+a{
+  
+}
+/*----------------------------------HEADER ELEMENTS----------------------------------------*/
+#header-1, #header-2, #header-3, #header-4{
+  color: hsl(36, 100%, 50%);
+  font-style:italic;
+}
+
+/*-----------------------------PARAGRAPH ELEMENTS----------------------------------*/
+p{
+  font-size:27px;
+}
+
+
+/*-----------------------------------IMG ELEMENTS-----------------------------*/
+img{
+  
+}
+
+/*-----------------------------------H1-H6 ELEMENTS---------------------------------------*/
+h1, h2, h3, h4, h5, h6{
+  
+}
+
+/*-----------------------------------CONTAINER ELEMENTS----------------------------------------*/
+main{
+  margin:0px 40px 0px 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.upper{
+  background-color:HSL(219, 20%, 34%);
+  margin: 20px 0px 0px 0px;
+    font-size:20px;
+  border:2px solid hsl(223, 45%, 28%);
+}
+
+.lower{
+  background-color:HSL(219, 20%, 34%);
+  margin: -10px 0px 20px 0px;
+    font-size:20px;
+  border:2px solid hsl(223, 45%, 28%);
+}
+
+aside{
+  float:right;
+  width:15%;
+  margin:25px 10px 0px 0px;
+    border-left: solid 3px black;
+}
+
+/*-------------------------------------FOOTER ELEMENTS-----------------------------------*/
+.footer{
+  background-color: hsl(201, 26%, 60%);
+  width:100%;
+  font-size:21px;
+  color: hsl(224, 51%, 11%);
+}
+
+#bottom-jump{
+  position:absolute;
+ margin: 0px 0px 0px -8px;
+}
+
+#top-jump{
+  text-decoration: none;
+  color:hsl(224, 51%, 11%); 
+  float:right;
+  margin:20px 0px 0px 0px
+}
+
+
+/*----------------------------------------MEDIA QUERIES-------------------------------------------*/
